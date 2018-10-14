@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cjkradlib"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate compositions, supercompositions and variants for a given Hanzi / Kanji"
 authors = ["Pacharapol Withayasakpunt <patarapolw@gmail.com>"]
 license = "MIT"

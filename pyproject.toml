@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cjkradlib"
+version = "0.1.0"
+description = "Generate compositions, supercompositions and variants for a given Hanzi / Kanji"
+authors = ["Pacharapol Withayasakpunt <patarapolw@gmail.com>"]
+readme = "README.md"
+keywords = ['cjk', 'hanzi', 'kanji', 'kangxi radical']
+
+[tool.poetry.dependencies]
+python = "*"
+importlib_resources = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.8"

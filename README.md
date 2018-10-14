@@ -1,5 +1,10 @@
 # CJKradlib
 
+[![Build Status](https://travis-ci.org/patarapolw/cjkradlib.svg?branch=master)](https://travis-ci.org/patarapolw/cjkradlib)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
+[![PyPI license](https://img.shields.io/pypi/l/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
+
 Generate compositions, supercompositions and variants for a given Hanzi / Kanji.
 
 ## Installation

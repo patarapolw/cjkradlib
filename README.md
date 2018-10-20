@@ -5,13 +5,19 @@
 [![PyPI license](https://img.shields.io/pypi/l/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
 
-Generate compositions, supercompositions and variants for a given Hanzi / Kanji.
+Generate compositions, supercompositions and variants for a given Hanzi / Kanji, based on [cjk-decomp](https://github.com/amake/cjk-decomp).
 
 ## Installation
 
 ```commandline
 pip install cjkradlib
 ```
+
+Also, IDS sequences use full range of CJK ideographs, so the fonts
+that covers all encoded ideographs (such
+as [HanaMin](http://fonts.jp/hanazono/)
+or [Hanamin AFDKO](https://github.com/cjkvi/HanaMinAFDKO/releases) )
+should be used.
 
 ## Usage
 
@@ -35,6 +41,10 @@ print(result.supercompositions)  # ['摩', '磨', '魔', '麿']
 
 ## Related projects
 
-- [HanziLevelUp](https://github.com/patarapolw/HanziLevelUp)
 - [ChineseViewer](https://github.com/patarapolw/ChineseViewer)
+- [HanziLevelUp](https://github.com/patarapolw/HanziLevelUp)
 - [CJKrelate](https://github.com/patarapolw/CJKrelate)
+
+## Plan
+
+- Use https://github.com/cjkvi/cjkvi-ids as the source for CJK-decomposition.

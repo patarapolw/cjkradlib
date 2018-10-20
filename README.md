@@ -5,7 +5,7 @@
 [![PyPI license](https://img.shields.io/pypi/l/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/cjkradlib.svg)](https://pypi.python.org/pypi/cjkradlib/)
 
-Generate compositions, supercompositions and variants for a given Hanzi / Kanji, based on [cjk-decomp](https://github.com/amake/cjk-decomp).
+Generate compositions, supercompositions and variants for a given Hanzi / Kanji, based on [cjkvi-ids](https://github.com/cjkvi/cjkvi-ids). (Previously, [cjk-decomp](https://github.com/amake/cjk-decomp).)
 
 ## Installation
 

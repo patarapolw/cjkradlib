@@ -10,7 +10,7 @@ finder = RadicalFinder(lang='jp')
     [
         ('频', ['步', '页']),
         ('从', ['人']),
-        ('弱', ['60887'])
+        ('弱', ['冫', '弓'])
     ]
 )
 def test_compositions(character, compositions):

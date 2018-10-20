@@ -3,15 +3,15 @@ import json
 import random
 
 try:
-    from importlib.resources import read_text as import_text
+    from importlib.resources import read_text
 except ImportError:
-    from importlib_resources import read_text as import_text
+    from importlib_resources import read_text
 
 
 class ZhFrequency:
     def __init__(self):
         self.sequence = []
-        for row in import_text('cjkradlib.data.zh', 'junda.tsv').strip().split('\n'):
+        for row in read_text('cjkradlib.data.zh', 'junda.tsv').strip().split('\n'):
             contents = row.split('\t')
             self.sequence.append(contents[1])
 
@@ -30,7 +30,7 @@ class ZhFrequency:
 
 class JpFrequency:
     def __init__(self):
-        self.entries = json.loads(import_text('cjkradlib.data.jp', 'grade.json'))
+        self.entries = json.loads(read_text('cjkradlib.data.jp', 'grade.json'))
 
     def sort_char(self, kanji_list):
         return sorted([kanji for kanji in kanji_list if self.freq_char(kanji) is not None],
